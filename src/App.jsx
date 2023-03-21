@@ -9,7 +9,7 @@ import Symptoms from "./components/Symptoms";
 function App() {
  
   return (
-    <div className="  grid grid-cols-6 ">
+    <div className="  grid grid-cols-6">
       <BrowserRouter>
       <Aside/>
       <Routes>
@@ -27,7 +27,7 @@ function App() {
         path="/statistics"
         exact
         element={
-          <div className=" col-span-5">
+          <div className=" col-span-5 bg-orange-200">
             <Statistics/>
           </div>
         }

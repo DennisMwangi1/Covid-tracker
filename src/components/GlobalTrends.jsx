@@ -2,7 +2,7 @@ import React from 'react'
 
 function GlobalTrends() {
   return (
-    <div>GlobalTrends</div>
+    <div>GlobalTrend</div>
   )
 }
 

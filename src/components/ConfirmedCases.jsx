@@ -8,12 +8,12 @@ function ConfirmedCases({selectedCountryStats}) {
     <>
       <div className="grid grid-cols-5">
         <h1 className=' pb-2 tracking-wider  font-serif font-semibold col-span-4'>Confirmed cases</h1>
-        <p className='font-bold text-red-500 pl-2 '>{selectedCountryStats?.cases.new}</p>
+        <p className='font-bold text-red-500 pl-2 '>{selectedCountryStats?.cases?.new}</p>
       </div>
        <div className="pl-4" >
         <AnimatedNumbers
         includeComma
-        animateToNumber={selectedCountryStats?.cases.total}
+        animateToNumber={selectedCountryStats?.cases?.total}
         fontStyle={{ fontSize: 30 }}
         configs={[
           { mass: 1, tension: 220, friction: 100 },

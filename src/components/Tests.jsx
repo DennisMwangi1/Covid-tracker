@@ -3,16 +3,16 @@ import AnimatedNumbers from "react-animated-numbers";
 
 
 
-function RecoveredCases({selectedCountryStats}) {
+function Tests({selectedCountryStats}) {
   return (
     <>
       <div className="grid grid-cols-5">
-        <h1 className=' pb-2 tracking-wider  font-serif font-semibold col-span-4'>Recovered cases</h1>
+        <h1 className=' pb-2 tracking-wider  font-serif font-semibold col-span-4'>Total Testing Done</h1>
       </div>
-       <div className="pl-4" >
+       <div className="" >
         <AnimatedNumbers
         includeComma
-        animateToNumber={selectedCountryStats?.cases?.recovered}
+        animateToNumber={selectedCountryStats?.tests?.total}
         fontStyle={{ fontSize: 30 }}
         configs={[
           { mass: 1, tension: 220, friction: 100 },
@@ -28,4 +28,4 @@ function RecoveredCases({selectedCountryStats}) {
   );
 }
 
-export default RecoveredCases
+export default Tests

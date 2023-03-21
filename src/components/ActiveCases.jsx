@@ -12,7 +12,7 @@ function ActiveCases({selectedCountryStats}) {
        <div className="pl-8" >
         <AnimatedNumbers
         includeComma
-        animateToNumber={selectedCountryStats?.cases.active}
+        animateToNumber={selectedCountryStats?.cases?.active}
         fontStyle={{ fontSize: 30 }}
         configs={[
           { mass: 1, tension: 220, friction: 100 },
