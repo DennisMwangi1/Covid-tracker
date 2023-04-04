@@ -45,7 +45,7 @@ function App() {
         path="/symptoms"
         exact
         element={
-          <div className="bg-green-500 col-span-5">
+          <div className="bg-slate-200 col-span-5">
             <Symptoms/>
           </div>
         }
