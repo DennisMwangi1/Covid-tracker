@@ -23,9 +23,9 @@ function Aside() {
             <NavLink to='/statistics' className={({ isActive }) =>
               isActive ? 'text-black m-auto text-xl font-serif' : 'm-auto'
             } >Statistics</NavLink>
-            <NavLink to='/globaltrends' className={({ isActive }) =>
+            {/* <NavLink to='/globaltrends' className={({ isActive }) =>
               isActive ? 'text-black m-auto text-xl font-serif' : 'm-auto'
-            }  >Global Trends</NavLink>
+            }  >Global Trends</NavLink> */}
         </nav>
 
     </div>
